@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import logo from "../Assets/logo.png"
 import cart_icon from "../Assets/cart_icon.png"
 
+
 import "./Navbar.css"
 
 const Navbar = () => {
@@ -26,6 +27,7 @@ const Navbar = () => {
         <Link to='/cart'><img src={cart_icon} alt="cart icon"/></Link>
         <div className="nav-cart-count">0</div>
       </div>
+
     </div>
   )
 }
