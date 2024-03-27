@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom'
 function Item (props) {
   return (
     <div className='item'>
-      <Link to ={`/products/${props.id}`}><img src={props.image} alt="" /> </Link>
+      {/* onClick of the product will redirect to top of product page */}
+      <Link to ={`/products/${props.id}`}><img onClick={window.scrollTo(0,0)} src={props.image} alt="" /> </Link>
         <p>{props.name}</p>
         <div className="item-prices">
 
@@ -16,7 +17,6 @@ function Item (props) {
         <div className="item-price-old">
             {props.old_price}
         </div>
-        
     </div>
   )
 }
