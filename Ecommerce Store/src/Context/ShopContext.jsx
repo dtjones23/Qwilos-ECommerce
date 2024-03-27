@@ -24,7 +24,7 @@ const ShopContextProvider = (props) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
   };
 
-  const getTotalCardAmount = () => {
+  const getTotalCartAmount = () => {
     let totalAmount = 0
 
     // the item is the key of the cartItems object
@@ -36,12 +36,12 @@ const ShopContextProvider = (props) => {
         let itemInfo = all_product.find((product) => product.id === Number(item))
         totalAmount += itemInfo.new_price * cartItems[item]
       }
-      return totalAmount
     }
+    return totalAmount;
   }
 
   // this is the data that we are going to pass to the provider
-  const contextValue = { all_product, cartItems, addToCart, removeFromCart, getTotalCardAmount };
+  const contextValue = { all_product, cartItems, addToCart, removeFromCart, getTotalCartAmount };
   
   return (
     <ShopContext.Provider value={contextValue}>
