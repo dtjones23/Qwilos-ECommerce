@@ -1,5 +1,5 @@
 import React from 'react'
-import './RelatedProduct.css'
+import './RelatedProducts.css'
 import data_products from '../Assets/data'
 import Item from '../Item/Item'
 
