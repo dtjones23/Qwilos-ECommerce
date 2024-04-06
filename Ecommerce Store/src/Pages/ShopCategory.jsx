@@ -2,12 +2,13 @@ import React, { useContext } from 'react'
 import './CSS/ShopCategory.css'
 import { ShopContext } from '../Context/ShopContext';
 import dropdown_icon from '../Components/Assets/dropdown_icon.png'
+import star_icon from '../Components/Assets/star_icon.png'
 import Item from '../Components/Item/Item';
 
 const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext); // get all the childrens
   return (
-    <div className='shop-category'>
+    <div className='shopcategory'>
       <img src={props.banner} alt="" />
         <div className="shopcategory-indexSort">
           <p>
@@ -15,7 +16,7 @@ const ShopCategory = (props) => {
             <span>Showing 1-12</span> out of 36 products
           </p>
           <div className="shopcategory-sort">
-            Sort by <img src={dropdown_icon} alt="" />
+            <img src={dropdown_icon} alt="" /> 
           </div>
         </div>
         <div className="shopcategory-products">

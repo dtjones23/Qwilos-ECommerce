@@ -22,7 +22,7 @@ const ProductDisplay = (props) => {
       </div>
       <div className="productdisplay-right">
         <h1>{product.name}</h1>
-        <div className="productdisplay-right-star">
+        <div className="productdisplay-right-stars">
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
@@ -46,7 +46,7 @@ const ProductDisplay = (props) => {
           pariatur?
         </div>
         <div className="productdisplay-right-size">
-          <h2>SelectSize</h2>
+          <h2>Select Size</h2>
           <div className="productdisplay-right-sizes">
             <div>S</div>
             <div>M</div>
