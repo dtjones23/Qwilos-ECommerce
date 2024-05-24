@@ -3,7 +3,7 @@ import './Breadcrumb.css'
 import arrow_icon from '../Assets/breadcrum_arrow.png'
 
 const Breadcrumb = (props) => {
-    
+// displays the breadcrumb of the product page which shows the path of the product from the home page to the product page.
     const {product} = props;
   return (
     <div className='breadcrum'>
