@@ -2,7 +2,7 @@
 ![Screen Shot 2024-04-06 at 3 02 00 PM](https://github.com/dtjones23/Qwilos-ECommerce/assets/142169871/dd90b285-d259-45ac-b69c-bae2e7984625)
 
 # Description
-Welcome to Qwilo's Store! This is a simple eCommerce layout built using React, designed to provide users with a seamless shopping experience. Whether you're browsing for the latest trends or searching for specific items, Qwilo's Store aims to cater to all your needs.
+Welcome to Qwilo's Store! This is a simple eCommerce layout built using React, designed to provide users with a seamless shopping experience. Whether you're browsing for the latest trends or searching for specific items, Qwilo's Store aims to cater to all your needs. The purpose of this project was to gain a better understanding of a basis behind an Ecommerce structure and using React.
 
 # Usage
 To experience the Qwilo's Store application, please click here to access the live deployment:
